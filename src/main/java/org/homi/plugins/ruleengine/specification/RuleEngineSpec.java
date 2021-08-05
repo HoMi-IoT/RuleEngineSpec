@@ -22,7 +22,7 @@ class Types {
 @SpecificationID(id="RuleEngineSpec")
 public enum RuleEngineSpec implements ISpecification {
 	ADD_RULE(Types.SUCCESS, Types.RULE_TEXT),
-	GET_RULES(Types.RULE_TEXT),
+	GET_RULES(Types.RULE_RESULT),
 	REMOVE_RULE(Types.SUCCESS, Types.RULE_ID);
 	
 	private List<TypeDef<?>> parameterTypes;
